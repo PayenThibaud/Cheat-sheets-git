@@ -12,7 +12,8 @@ git status = voir où on en est
 ssh-keygen -t ed25519 -C "votre_email@example.com"
 Get-Content "C:\Users\Thibaud Payen\.ssh\id_ed25519.pub" | clip (Sur powershell)
 
-$ eval "$(ssh-agent -s)" = pour créer un agent SSH 
+$ eval "$(ssh-agent -s)" = pour créer un agent SSH
+
 ssh-add ~/.ssh/id_ed25519 = mettre la clé privée SSH à l'agent
 
 
