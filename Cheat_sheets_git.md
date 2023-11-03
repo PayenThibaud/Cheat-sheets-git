@@ -22,16 +22,34 @@ Origin => git clone SSH => Local (ma machine)
 ## Pour mettre à jour  
   
 cd (dossier)  
-git remote add upstream https du fork (si pas déjà fait)  
+git remote add upstream https (lecture) ou SSH (écriture) du fork (si pas déjà fait)  
 git pull upstream main => Local (mettre à jour du fork au local)  
 git push origin main => origin (mettre à jour le local à github)  
+git remote -v (voir)  
+git remote rm (surpprimer)  
   
 ## Les branches  
   
 git branch = voir sur qu'elle branche on est  
-git branch (mot) = créer une branche  
+git branch (nom nouvelle branche) = créer une branche  (locale)
 git checkout (mot) = basculer de branche  
-
-
-
-
+git switch (mot) = nouvelle façon de basculer de branche
+Après avoir changer un fichier (git add + git commit)  
+git push --set-upstream origin (nom de la nouvelle branche)  
+git branch -d (nom) = supprimer une branche  
+git branch -D (nom) = Supprimer une branche qui a déjà des changements  
+  
+### Fusion des branches  
+  
+Retourner sur la branches principale (git checkout)   
+git merge (nom de la nouvelle branche)  
+puis git push  
+  
+### Pull request  
+  
+Un remote  
+Une nouvelle branche  
+et le code dans la branche.  
+Pull request sur Github.  
+  
+##
