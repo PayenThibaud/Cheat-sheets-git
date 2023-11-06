@@ -11,7 +11,7 @@ git flow init
 git flow feature start (nom)  
   
 ## Lorsqu'on a fini de coder la feature, on ferme notre branche et la merge dans la branche dev  
-  
+   
 git flow feature finish (nom)  
   
 ## vérification du code avant lancement sur la branche main  
