@@ -16,7 +16,7 @@ git flow feature finish (nom)
   
 ## vérification du code avant lancement sur la branche main  
   
-git flow release start (1.0.0)  
+git flow release start (1.0.0)   
   
 ## Lancement sur la branche main après vérification  
   
