@@ -19,7 +19,7 @@ ssh-add ~/.ssh/id_ed25519 = mettre la clé privée SSH à l'agent
 Upstream (Github de quelqu'un) => fork (faire une copie prîvé) => origin (mon Github)  
 Origin => git clone SSH => Local (ma machine)  
   
-## Pour mettre à jour  
+## Pour mettre à jour   
   
 cd (dossier)  
 git remote add upstream https (lecture) ou SSH (écriture) du fork (si pas déjà fait)  
