@@ -32,4 +32,4 @@ git flow hotfix start (nom)
   
 ## Une fois le correction du code, le hotfix se transmet sur la branche main et dev  
   
-git flow hotfix finish (nom)   s
+git flow hotfix finish (nom)  
